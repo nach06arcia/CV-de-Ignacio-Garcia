@@ -1,0 +1,242 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+html{
+  /* velocidad con la que se mueve la pagina desde el menu*/
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #eb8888c0;
+  font-family: 'calibri';
+}
+
+header {
+  position: fixed;
+  background: orangered;
+  width: 100%;
+  clear: both;
+  content:"";
+  display: table;
+}
+
+.menu {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#Marquesina{
+  width: 100%;
+  height: 15%;
+  background: #eb8888c0;
+  padding: 50px 0px 0px 0px; 
+}
+
+img {
+  /*foto de perfil*/
+  width: 180px;
+  float:none;
+  /*Modificando esto centre la foto de perfil inicial*/
+  padding: 10px 10px;
+  margin-left: 70px;
+}
+
+nav {
+  float: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 135px;
+  padding: 12px 0;
+  float: left;
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+nav ul li a::before {
+  display: block;
+  content: '';
+  width: 0%;
+  background: #444;
+  height: 5px;
+  top:0;
+  position: absolute;
+  transition: width 0.2s;
+}
+
+nav ul li a:hover::before {
+  width: 100%;
+}
+
+.Inicio .foto-perfil img {
+    padding: 5px;
+    background-color: black;
+    max-width: 450px;
+    margin: center;
+    margin-top: 80px;
+    text-align: center;
+    border-radius: 40px;
+    position: right;
+}
+
+.Inicio .foto-perfil img {
+  margin-top: 70px;
+  border: 10px solid orangered;
+  display: block;
+  width: 300px;
+  margin: auto;
+  border-style: groove;
+  object-position: center;
+  position: right;
+}
+
+h1{
+  float: center;
+  font-size: 30px;
+  text-align: justify;
+  margin-top: 50px;
+}
+
+#ENCexper{
+  font-family: franklin Gothic Medium;
+  font-size: 5px;
+}
+
+h1 .p{
+  object-position: unset;
+  max width: 100%;
+  font-size: 50px;
+  text-align: justify;
+  padding: 35px 5px 5px 0px;
+
+}
+
+#ENCsobremi {
+  float: center;
+  font-size: 35px;
+  text-align: center;
+  padding: 50px 5px;
+}
+
+#PARsobremi {
+  float: center ;
+  font-size: 20px;
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/*foto sobre Mi*/
+#Fotosobre{
+  object-position: relative;
+  position: right;
+  width: 90%;
+  height: 400px;
+  }
+
+  #ENCvolunta {
+    float: center;
+    font-size: 35px;
+    text-align: center;
+    padding: 50px 0px;
+  }
+  
+  #PARvolunta {
+    float: center ;
+    font-size: 30px;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  /*foto Voluntariado*/
+  #Fotovolunta{
+  object-position: relative;
+  position: right;
+  width: 100%;
+  padding: 100px 200px 10px 20px;
+  }
+
+      #ENCexper {
+      float: center;
+      font-size: 35px;
+      text-align: center;
+      padding: 50px 0px ;
+    }
+    
+    #PARexper {
+      object-position: center;
+      float: center;
+      font-size: 20px;
+      text-align: justify;
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top: 10px;
+    }
+    
+    
+/*foto Experiencia*/
+    #Repa{
+      object-position: relative;
+      position: right;
+      width: 60%;
+      padding: 100px 200px 10px 20px;
+    }
+    /*foto reparacion*/
+    #Repa{
+      object-position: center;
+      position: center;
+      height: 20%;
+      margin: 0px 0px 0px 350px; 
+      padding-top: 10px;     
+      }
+
+  /*Boton*/
+  .btn-flotante {
+        font-size: 16px; 
+        text-transform: uppercase; 
+        font-weight: bold; 
+        color: #eb8888ee; 
+        border-radius: 5px; 
+        letter-spacing: 1px; 
+        background-color: orangered; 
+        padding: 18px 30px; 
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        transition: all 300ms ease 0ms;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        z-index: 99;
+      }
+      .btn-flotante:hover {
+        background-color: #2ca544; 
+        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+        transform: translateY(-7px);
+      }
+      @media only screen and (max-width: 600px) {
+         .btn-flotante {
+          font-size: 14px;
+          padding: 12px 20px;
+          bottom: 20px;
+          right: 20px;
+        }
+      }
+#Piedepag {
+  font-style: oblique;
+  color: #5a2ca5;
+  object-position: right;
+  text-align: right;
+  margin-right: 0px;
+  font-size: 15px;
+  }
+
+  /*Gracias por evaluar este codigo! :) */
